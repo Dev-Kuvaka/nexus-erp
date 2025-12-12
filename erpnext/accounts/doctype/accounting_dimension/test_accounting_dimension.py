@@ -8,7 +8,7 @@ from frappe.tests import IntegrationTestCase
 from nexuserp.accounts.doctype.journal_entry.test_journal_entry import make_journal_entry
 from nexuserp.accounts.doctype.sales_invoice.test_sales_invoice import create_sales_invoice
 
-EXTRA_TEST_RECORD_DEPENDENCIES = ["Cost Center", "Location", "Warehouse", "Department"]
+EXTRA_TEST_RECORD_DEPENDENCIES = ["Cost Center", "Location", "Warehouse", "Department"] 
 
 
 class TestAccountingDimension(IntegrationTestCase):

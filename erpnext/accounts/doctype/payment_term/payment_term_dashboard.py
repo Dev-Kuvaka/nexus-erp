@@ -10,3 +10,4 @@ def get_data():
 			{"items": ["Payment Terms Template"]},
 		],
 	}
+

@@ -517,7 +517,7 @@ class GrossProfitGenerator:
 		grouped_by_invoice = True if self.filters.get("group_by") == "Invoice" else False
 
 		if grouped_by_invoice:
-			buying_amount = 0
+			buying_amount = 0 
 			base_amount = 0
 
 		for row in reversed(self.si_list):

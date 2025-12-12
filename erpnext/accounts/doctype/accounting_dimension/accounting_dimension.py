@@ -17,6 +17,8 @@ from nexuserp.accounts.doctype.repost_accounting_ledger.repost_accounting_ledger
 )
 
 
+
+
 class AccountingDimension(Document):
 	# begin: auto-generated types
 	# This code is auto-generated. Do not modify anything in this block.

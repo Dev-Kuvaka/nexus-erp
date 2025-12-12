@@ -95,6 +95,7 @@ def prepare_data(supplier_quotation_data, filters):
 	)
 	float_precision = cint(frappe.db.get_default("float_precision")) or 2
 
+
 	for data in supplier_quotation_data:
 		group = data.get(group_by_field)  # get item or supplier value for this row
 

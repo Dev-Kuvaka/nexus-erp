@@ -105,6 +105,7 @@ def prepare_data(data, filters):
 	"""Prepare consolidated Report data and Chart data"""
 	material_request_map, item_qty_map = {}, {}
 	precision = cint(frappe.db.get_default("float_precision")) or 2
+ 
 
 	for row in data:
 		# item wise map for charts

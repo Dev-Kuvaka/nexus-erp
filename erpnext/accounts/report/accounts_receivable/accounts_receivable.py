@@ -1291,7 +1291,7 @@ class ReceivablePayableReport:
 				prev_range_value = cint(curr_range_value) + 1
 
 	def get_chart_data(self):
-		precision = cint(frappe.db.get_default("float_precision")) or 2
+		precision = cint(frappe.db.get_default("float_precision")) or 2  
 		rows = []
 		for row in self.data:
 			row = frappe._dict(row)

@@ -174,7 +174,7 @@ def check_opening_balance(asset, liability, equity):
 	if liability:
 		opening_balance -= flt(liability[-1].get("opening_balance", 0), float_precision)
 	if equity:
-		opening_balance -= flt(equity[-1].get("opening_balance", 0), float_precision)
+		opening_balance -= flt(equity[-1].get("opening_balance", 0), float_precision) 
 
 	opening_balance = flt(opening_balance, float_precision)
 	if opening_balance:

@@ -114,6 +114,7 @@ class StockLedgerEntry(Document):
 
 		flt_precision = cint(frappe.db.get_default("float_precision")) or 2
 		available_qty = self.get_available_qty_after_prev_transaction(dimensions)
+  
 
 		diff = flt(available_qty + flt(self.actual_qty), flt_precision)  # qty after current transaction
 		if diff < 0 and abs(diff) > 0.0001:

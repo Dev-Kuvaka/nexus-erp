@@ -5,6 +5,7 @@
 import frappe
 
 
+
 def execute():
 	from nexuserp.stock.stock_balance import get_indented_qty, get_ordered_qty, update_bin_qty
 
