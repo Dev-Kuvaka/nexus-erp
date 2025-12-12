@@ -10,12 +10,6 @@
 
 <br>
 
-<div align="center">
-	<img src="https://via.placeholder.com/800x400.png?text=Nexus+ERP+Dashboard" alt="Nexus ERP placeholder image"/>
-</div>
-
-<br>
-
 ## About Nexus ERP
 
 Nexus ERP is built on the philosophy that enterprise software should be accessible, affordable, and adaptable. Whether you're a small startup or a large corporation, Nexus ERP provides the tools you need to manage your finances, supply chain, manufacturing processes, customer relationships, and more—all from a single, integrated platform.
@@ -54,18 +48,10 @@ If you prefer to have full control over your environment, you can deploy Nexus E
 
 **Installation:**
 
-1.  Clone the Nexus ERP Docker repository:
-    ```bash
-    git clone https://github.com/nexus-erp/nexus-docker # This is a placeholder URL
-    ```
-2.  Navigate to the cloned directory:
-    ```bash
-    cd nexus-docker
-    ```
-3.  Start the services:
-    ```bash
-    docker compose up -d
-    ```
+If you have a docker-based setup, you can typically get started by running:
+```bash
+docker compose up -d
+```
 
 After a few minutes, your Nexus ERP instance should be accessible at `http://localhost:8080`.
 
@@ -86,17 +72,7 @@ We welcome contributions from the community! If you're a developer and want to c
     ```bash
     bench start
     ```
-
-You can then access your local development instance at `http://nexus-erp.localhost:8000`.
-
-## Community and Support
-
-Join our growing community of users and developers to get help, share ideas, and contribute to the project.
-
-*   **Community Forum**: [forum.nexus-erp.com](https://forum.nexus-erp.com) (placeholder)
-*   **Documentation**: [docs.nexus-erp.com](https://docs.nexus-erp.com) (placeholder)
-*   **GitHub**: [github.com/nexus-erp/nexus-erp](https://github.com/nexus-erp/nexus-erp) (placeholder)
-
+    
 ## Contributing
 
 We are always looking for contributors to help us improve Nexus ERP. If you are interested in contributing, please read our contributing guide to get started.
