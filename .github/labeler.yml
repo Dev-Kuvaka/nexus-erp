@@ -1,0 +1,55 @@
+accounts:
+- nexuserp/accounts/*
+- nexuserp/controllers/accounts_controller.py
+- nexuserp/controllers/taxes_and_totals.py
+
+stock:
+- nexuserp/stock/*
+- nexuserp/controllers/stock_controller.py
+- nexuserp/controllers/item_variant.py
+
+assets:
+- nexuserp/assets/*
+
+regional:
+- nexuserp/regional/*
+
+selling:
+- nexuserp/selling/*
+- nexuserp/controllers/selling_controller.py
+
+buying:
+- nexuserp/buying/*
+- nexuserp/controllers/buying_controller.py
+
+support:
+- nexuserp/support/*
+
+POS:
+- pos*
+
+ecommerce:
+- nexuserp/e_commerce/*
+
+maintenance:
+- nexuserp/maintenance/*
+
+manufacturing:
+- nexuserp/manufacturing/*
+
+crm:
+- nexuserp/crm/*
+
+HR:
+- nexuserp/hr/*
+
+payroll:
+- nexuserp/payroll*
+
+projects:
+- nexuserp/projects/*
+
+# Any python files modifed but no test files modified
+needs-tests:
+- any: ['nexuserp/**/*.py']
+  all: ['!nexuserp/**/test*.py']

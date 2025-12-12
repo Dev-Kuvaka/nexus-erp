@@ -1,0 +1,17 @@
+{
+  "name": "nexus-erp",
+  "description": "Open Source ERP System",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexus-erp/nexus-erp.git"
+  },
+  "homepage": "https://nexus-erp.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nexus-erp/nexus-erp/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "onscan.js": "^1.5.2"
+  }
+}
